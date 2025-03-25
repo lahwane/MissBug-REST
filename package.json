@@ -1,0 +1,17 @@
+{
+  "name": "inclass-node-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --ignore \"./data\" server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stav",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2"
+  }
+}
